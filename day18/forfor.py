@@ -1,5 +1,5 @@
 #중첩 for 문
-"""
+
 for i in range(0, 5):   #0~4행
     for j in range(0,5):
         print('가', end = " ")
@@ -10,7 +10,7 @@ for i in range(0, 5):   #0~4행
         num = i * 5 + j
         print(num, end = " ")
     print()
-"""
+print()
 
 #전체 구구단
 for i in range(2, 10):
