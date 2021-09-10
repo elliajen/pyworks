@@ -1,5 +1,6 @@
 #112p 연습문제
-print("1번")
+"""
+    print("1번")
 kor = 80
 eng = 75
 math = 55
@@ -7,6 +8,7 @@ sum = kor + eng + math
 avg = sum / 3
 print(avg)
 print()
+"""
 
 print("2번")
 n = 13
