@@ -1,17 +1,17 @@
 class Calculator:
     def __init__(self):
-        self.valeu = 0
+        self.value = 0
 
     def add(self, val):
-        self.valeu += val
-        return self.valeu
+        self.value += val
+        return self.value
 
 class UpgradeCalculator(Calculator):
-    def minus(self, cal):
-        self.valeu -= cal
+    def minus(self, val):
+        self.value -= val
 
-    cal = UpgradeCalculator()
-    cal.add(15)
-    cal.minus(6)
+cal = UpgradeCalculator()
+cal.add(15)
+cal.minus(5)
 
 print(cal.value)

@@ -1,5 +1,11 @@
-score = [70, 60, 55, 75, 95, 90, 80, 80, 85, 100]
+li = [70, 60, 55, 75, 95, 90, 80, 80, 85, 100]
+total = 0
+avg = 0.0
 
-for i in score:
+for i in li:
+ total += i
 
-print("평균 : ", a)
+avg = total / len(li)
+
+print(total)
+print("평균 : ", avg)

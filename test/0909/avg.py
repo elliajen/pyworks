@@ -1,3 +1,1 @@
-person = ["name", "age", "from"]
-
-print[p1]
+dic = {'name':'홍길동',}
