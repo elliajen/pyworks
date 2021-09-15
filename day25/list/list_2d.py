@@ -24,6 +24,7 @@ for i in range(len(d2)):
     for j in range(len(d2[i])):
         sum_v += d2[i][j]
         count += 1      # 1번 반복할때마다 1증가
+        print("sum_v = " , sum_v, "|| d2[i][j] = ", d2[i][j], "||", count, "번째")
 avg = sum_v / count
 print("합계 : %d" % sum_v)
 print("개수 : %d" % count)
