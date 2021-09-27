@@ -5,6 +5,14 @@
     <title>page</title>
 </head>
 <body>
-  <h1>Hello. This is index page</h1>
+    <nav>
+        <a href="{{url_for('login')}}">로그인</a>
+        <a href="{{url_for('register')}}">회원가입</a>
+        <a href="{{url_for('member_list')}}">회원목록</a>
+    </nav>
+    <h1>Hello. This is index page</h1>
+    <h2>로그인 결과</h2>
+    <p>아이디 : {{uid}}</p>
+    <p>패스워드 : {{passwd}}</p>
 </body>
 </html>
