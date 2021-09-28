@@ -18,7 +18,15 @@ html_str = """
 </html>
 """
 
+# find(), select_oen('개체이름.클래스이름)
 html = BeautifulSoup(html_str, "html.parser")
-first_ul = html.find('ul')  # find() 첫번째 요소를 찾음
-print(first_ul) # 태그까지 다 출력
-print(first_ul.text)    # 텍스트만 출력
+# find() 첫번째 요소를 찾음
+# first_ul = html.find('ul')
+first_ul = html.select_one('ul')
+second_ul = html.select_one('ul.lang')
+
+# print(first_ul) # 태그까지 다 출력
+# print(first_ul.text)    # 텍스트만 출력
+
+print(second_ul)
+print(second_ul.text)
