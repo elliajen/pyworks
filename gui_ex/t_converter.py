@@ -10,5 +10,5 @@ class Converter:
         return self.factor * val + self.offset
 
 if __name__ == "__main__":
-    c1 = Converter("C", 'F', 1.8,32)
+    c1 = Converter("C", 'F', 1.8, 32)
     print(str(c1.convert(20)) + c1.units_to)
